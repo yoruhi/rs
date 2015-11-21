@@ -5,9 +5,10 @@
 #include <sys/types.h>
 #include <errno.h>
 #include <string.h>
+#include "Mem_Init.h"
+#include "Mem_Alloc.h"
 
-int booloo () {
-int z = getpagesize();
-	printf("%d \n",z);
-	return z;
+int main() {
+	Mem_Alloc(64);
+return 0;
 }
