@@ -6,7 +6,7 @@
 #include <errno.h>
 #include <string.h>
 
-int main () {
+int booloo () {
 int z = getpagesize();
 	printf("%d \n",z);
 	return z;
