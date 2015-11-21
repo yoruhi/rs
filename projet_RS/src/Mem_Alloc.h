@@ -1,6 +1,6 @@
 #ifndef MEM_ALLOC_H
 #define MEM_ALLOC_H
-	typedef struct simpleChainList {
+	typedef struct simpleChainedList {
 		int size;
 		struct simpleChainedList *next;
 	};
